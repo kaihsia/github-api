@@ -1,0 +1,89 @@
+[
+  {
+    "url": "https://api.github.com/repos/dogtools/dog/issues/112",
+    "repository_url": "https://api.github.com/repos/dogtools/dog",
+    "labels_url": "https://api.github.com/repos/dogtools/dog/issues/112/labels{/name}",
+    "comments_url": "https://api.github.com/repos/dogtools/dog/issues/112/comments",
+    "events_url": "https://api.github.com/repos/dogtools/dog/issues/112/events",
+    "html_url": "https://github.com/dogtools/dog/issues/112",
+    "id": 190556596,
+    "number": 112,
+    "title": "Dog strips colors of task output",
+    "user": {
+      "login": "VictorBjelkholm",
+      "id": 459764,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/459764?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/VictorBjelkholm",
+      "html_url": "https://github.com/VictorBjelkholm",
+      "followers_url": "https://api.github.com/users/VictorBjelkholm/followers",
+      "following_url": "https://api.github.com/users/VictorBjelkholm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/VictorBjelkholm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/VictorBjelkholm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/VictorBjelkholm/subscriptions",
+      "organizations_url": "https://api.github.com/users/VictorBjelkholm/orgs",
+      "repos_url": "https://api.github.com/users/VictorBjelkholm/repos",
+      "events_url": "https://api.github.com/users/VictorBjelkholm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/VictorBjelkholm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 390590906,
+        "url": "https://api.github.com/repos/dogtools/dog/labels/bug",
+        "name": "bug",
+        "color": "ee0701",
+        "default": true
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": {
+      "login": "xsb",
+      "id": 148317,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/148317?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xsb",
+      "html_url": "https://github.com/xsb",
+      "followers_url": "https://api.github.com/users/xsb/followers",
+      "following_url": "https://api.github.com/users/xsb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xsb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xsb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xsb/subscriptions",
+      "organizations_url": "https://api.github.com/users/xsb/orgs",
+      "repos_url": "https://api.github.com/users/xsb/repos",
+      "events_url": "https://api.github.com/users/xsb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xsb/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "assignees": [
+      {
+        "login": "xsb",
+        "id": 148317,
+        "avatar_url": "https://avatars3.githubusercontent.com/u/148317?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/xsb",
+        "html_url": "https://github.com/xsb",
+        "followers_url": "https://api.github.com/users/xsb/followers",
+        "following_url": "https://api.github.com/users/xsb/following{/other_user}",
+        "gists_url": "https://api.github.com/users/xsb/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/xsb/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/xsb/subscriptions",
+        "organizations_url": "https://api.github.com/users/xsb/orgs",
+        "repos_url": "https://api.github.com/users/xsb/repos",
+        "events_url": "https://api.github.com/users/xsb/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/xsb/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+    ],
+    "milestone": null,
+    "comments": 4,
+    "created_at": "2016-11-20T12:52:12Z",
+    "updated_at": "2017-02-19T21:11:02Z",
+    "closed_at": null,
+    "body": "When using dog to run commands that prints out lines with colors, it seems like dog is stripping out the colors for some reason.\r\n\r\nI have a project called [Quickwiki](https://github.com/VictorBjelkholm/quickwiki) that uses dog, and when running `QUICKWIKI_DEBUG=1 go run main.go build ./wiki`, it prints out colors.\r\n\r\nBut, when running `QUICKWIKI_DEBUG=1 dog build-wiki`, which runs the same command, the colors are stripped."
+  }
+]
