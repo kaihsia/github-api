@@ -1,5 +1,7 @@
 # Github API App
 
+This app was created as a side-project to search Github repos and their issues
+
 ### To begin
 
 ```
